@@ -1,0 +1,18 @@
+# Folders
+build/
+!buildSrc/
+.gradle/
+.idea/
+out/
+nodejs/
+node_modules/
+bower_modules/
+
+
+# Files
+*.iml
+*.zip
+*.sha1
+*.class
+*.log
+*.hprof
