@@ -34,11 +34,6 @@ task wrapper(type: Wrapper) {
     gradleVersion = '2.6'
 }
 
-task copyApp(type: Copy) {
-    from('build/libs') {
-        include '**/*.jar'
-    }
-    into 'app'
+task stage {
+    dependsOn build
 }
-
-build.finalizedBy copyApp
