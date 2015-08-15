@@ -65,7 +65,7 @@
                                     <a href="#about"><i class="fa fa-bookmark"></i> <th:block th:text="#{section.about}">About</th:block></a>
                                 </li>
                                 <li>
-                                    <a href="#services"><i class="fa fa-tasks"></i> <th:block th:text="#{section.service}">Service</th:block></a>
+                                    <a href="#services"><i class="fa fa-film"></i> <th:block th:text="#{section.film}">Filmography</th:block></a>
                                 </li>
                                 <li>
                                     <a href="#testimonials"><i class="fa fa-thumbs-up"></i> <th:block th:text="#{section.testimonial}">Testimonial</th:block></a>
@@ -84,7 +84,7 @@
     <div id="header" class="content-block">
         <section class="center">
             <div class="slogan" th:text="#{slogan.primary}">Tolón el percutor</div>
-            <div class="secondary-slogan" th:text="#{slogan.secondary}">The most versatile escort</div>
+            <div class="secondary-slogan" th:text="#{slogan.secondary}">Ruling the new generation of porn</div>
         </section>
     </div><!-- header -->
 
@@ -102,22 +102,22 @@
                 <div class="col-md-4 text-center">
                     <div class="aboutus-item">
                         <i class="aboutus-icon fa fa-female"></i>
-                        <h4 class="aboutus-title" th:text="#{about.great.women}">Great for women</h4>
-                        <p class="aboutus-desc" th:text="#{about.great.women.text}">I'm the man every woman on earth looks for. I can be the most romantic lover, bring you flowers, whisper love poems in your ears... I will take care of you in bed like no one before.</p>
+                        <h4 class="aboutus-title" th:text="#{about.cat1}">Straight</h4>
+                        <p class="aboutus-desc" th:text="#{about.cat1.text}">I doesn't matter if you want a romantic movie or a hardcore one, I can be the biggest bastard or the greatest lover.</p>
                     </div>
                 </div>
                 <div class="col-md-4 text-center">
                     <div class="aboutus-item">
                         <i class="aboutus-icon fa fa-male"></i>
-                        <h4 class="aboutus-title" th:text="#{about.great.men}">Great for main</h4>
-                        <p class="aboutus-desc" th:text="#{about.great.men.text}">I'm perfect for you, it doesn't matter if it's your first man to man experience or you are a naughty boy. I will strike you hard or I can be your boy toy.</p>
+                        <h4 class="aboutus-title" th:text="#{about.cat2}">Homesexual</h4>
+                        <p class="aboutus-desc" th:text="#{about.cat2.text}">I can play the role of a boy toy or I can strike another man really hard. I'm very versatile and I can adapt to any situation.</p>
                     </div>
                 </div>
                 <div class="col-md-4 text-center">
                     <div class="aboutus-item">
-                        <i class="aboutus-icon fa fa-diamond"></i>
-                        <h4 class="aboutus-title" th:text="#{about.great.standing}">VIP escort</h4>
-                        <p class="aboutus-desc" th:text="#{about.great.standing.text}">My services are top quality at an affordable price. Don't look elsewhere, if you are looking for something refined and naughty at the same time I'm your man.</p>
+                        <i class="aboutus-icon fa fa-paw"></i>
+                        <h4 class="aboutus-title" th:text="#{about.cat3}">Other</h4>
+                        <p class="aboutus-desc" th:text="#{about.cat3.text}">I'm open to any other type of movies like BDSM, gangbangs, bukakes, ... You can even bring your dog and I will take care of him.</p>
                     </div>
                 </div>
             </div>
@@ -125,44 +125,49 @@
     </div>
     <!-- /About us -->
 
-    <div class="content-block parallax" id="services">
-        <div class="container services-sec">
+    <div class="container portfolio-sec">
+        <header class="block-heading cleafix">
             <div class="title-page">
-                <p class="main-header">Our Services </p>
-                <p class="sub-header">A little about what we do</p>
+                <p class="main-header" th:text="#{filmograpy.title}">Filmography</p>
+                <p class="sub-header" th:text="#{filmograpy.subtitle}">What I've done so far</p>
             </div>
-            <section class="block-body">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="service">
-                            <div class="bar">
-                                <i class="fa fa-send-o"></i>
-                            </div>
-                            <h2 class="service-head">Illustration</h2>
-                            <p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in lorem.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="service">
-                            <div class="bar">
-                                <i class="fa fa-heart-o"></i>
-                            </div>
-                            <h2 class="service-head">3D Modeling</h2>
-                            <p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in lorem.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="service">
-                            <div class="bar">
-                                <i class="fa fa-camera-retro"></i>
-                            </div>
-                            <h2 class="service-head">Photography</h2>
-                            <p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in lorem.</p>
-                        </div>
-                    </div>
+        </header>
+        <section class="block-body">
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="#" class="recent-work" style="background-image:url(./images/tolon-barvarian.jpg)">
+                        <span class="btn btn-o-white" th:text="#{filmograpy.barbarian}">Tolón the barvarian</span>
+                    </a>
                 </div>
-            </section>
-        </div>
+                <div class="col-sm-4">
+                    <a href="#" class="recent-work" style="background-image:url(./images/tolon-king.jpg)">
+                        <span class="btn btn-o-white" th:text="#{filmograpy.king}">The king Tolón</span>
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="#" class="recent-work" style="background-image:url(./images/batman.jpg)">
+                        <span class="btn btn-o-white" th:text="#{filmograpy.batman}">The dark Tolón</span>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="#" class="recent-work" style="background-image:url(./images/tolonator.jpg)">
+                        <span class="btn btn-o-white" th:text="#{filmograpy.terminator}">Tolonator</span>
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="#" class="recent-work" style="background-image:url(./images/game-of.jpg)">
+                        <span class="btn btn-o-white" th:text="#{filmograpy.thrones}">Game of tolones</span>
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="#" class="recent-work" style="background-image:url(./images/park.jpg)">
+                        <span class="btn btn-o-white" th:text="#{filmograpy.jurasic}">Tolón Park</span>
+                    </a>
+                </div>
+            </div>
+        </section>
     </div><!-- #services -->
 
     <div class="content-block" id="testimonials">
@@ -170,8 +175,8 @@
 
             <header class="block-heading cleafix">
                 <div class="title-page  pull-left">
-                    <p class="main-header">Testimonial</p>
-                    <p class="sub-header">What our client says</p>
+                    <p class="main-header" th:text="#{testimonials.title}">Testimonial</p>
+                    <p class="sub-header" th:text="#{testimonials.subtitle}">What my fans say</p>
                 </div>
             </header>
 
@@ -192,24 +197,21 @@
                                 <div class="img-center">
                                     <img class="img-circle circular-img" src="./images/01_200x200.png" th:src="@{/images/01_200x200.png}" />
                                 </div>
-                                <h3>Create a website that you are gonna be proud of. Be it Business, Portfolio, Photography, eCommerce and much more.
-                                </h3>
+                                <h3 th:utext="#{testimonial.one}"><i>Rob Miller</i>: The first time I saw a Tolón movie I thought it was a Joke, not the most handsome guy. But when his pants drop off I was amazed, I started feeling hungry.</h3>
 
                             </div>
                             <div class="item">
                                 <div class="img-center">
                                     <img class="img-circle circular-img" src="./images/02_200x200.png" th:src="@{/images/02_200x200.png}"/>
                                 </div>
-                                <h3>Create a website that you are gonna be proud of. Be it Business, Portfolio, Photography, eCommerce and much more.
-                                </h3>
+                                <h3 th:utext="#{testimonial.two}"><i>Rebeca García</i>: Mis compañeras de trabajo me habían recomendado las películas de Tolón, siempre estuve un poco reticente pero en cuanto vi su primera película me he convertido en su fan número uno.</h3>
 
                             </div>
                             <div class="item">
                                 <div class="img-center">
                                     <img class="img-circle circular-img" src="./images/03_200x200.png" th:src="@{/images/03_200x200.png}" />
                                 </div>
-                                <h3>Create a website that you are gonna be proud of. Be it Business, Portfolio, Photography, eCommerce and much more.
-                                </h3>
+                                <h3 th:utext="#{testimonial.three}"><i>Brigitte Dubois</i>: C'est la première fois que j'achète un film pornographique, mais ça sera pas la dernière. Tolón je t'aime!!!.</h3>
 
                             </div>
                         </div>
@@ -222,7 +224,7 @@
     <div class="content-block" id="footer">
         <div class="container">
             <div class="row">
-                <div class="col-sm-4 blog-post">
+                <div class="col-sm-6 blog-post">
 
                     <h2 class="footer-block">Have a question</h2>
                     <p>Praesent lacinia dapibus, accumsan vesti bulum. Pellen tesque molestie mollis.</p>
@@ -232,7 +234,7 @@
 
                     <p>Estibulum dapibus, maurimalesfames ac turpis velit, rhoncus eu, luctus et interdum adipiscing wisi. Aliquam erat ac ipsum. Integer aliquam purus ultricies gravida vitae...</p>
                 </div>
-                <div class="col-sm-4 blog-post">
+                <div class="col-sm-6 blog-post">
                     <h2 class="footer-block">Leave us a message</h2>
                     <form class="" role="form">
                         <div class="form-group">
@@ -249,45 +251,14 @@
                         </div>
                     </form>
                 </div>
-                <div class="col-sm-4 blog-post">
 
-                    <h2 class="footer-block">Contact Details</h2>
-                    <ul>
-                        <li class="address-sub"><i class="fa fa-map-marker"></i>Office Address</li>
-                        <p>
-                            Blabla Parkway, P.o Box 353 Mountain View. United States of America.
-                        </p>
-                        <li class="address-sub"><i class="fa fa-phone"></i>Phone</li>
-                        <p>
-                            Local: 1-800-123-hello<br />
-                            Mobile: 1-800-123-hello
-                        </p>
-                        <li class="address-sub"><i class="fa fa-envelope-o"></i>Email Address</li>
-                        <p>
-                            <a href="mailto:info@themewagon.com">info@themewagon.com</a><br />
-                            <a href="http://www.themewagon.com/">www.themewagon.com</a>
-                        </p>
-
-
-                    </ul>
-                    <div class="social">
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                        <a href="#"><i class="fa fa-pinterest-p"></i></a>
-                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                        <a href="#"><i class="fa fa-skype"></i></a>
-                    </div>
-
-                </div>
             </div>
         </div>
     </div>
     <div class="content-block footer-bottom" id="footer2">
         <div class="container">
             <div class="row">
-                <div class="col-xs-6">&copy; Copyright Avada Plus 2015</div>
-                <div class="col-xs-6 text-right">Theme by <a href="http://www.themewagon.com/" target="_blink">ThemeWagon</a></div>
+                <div class="col-xs-6" th:utext="#{copy}">&copy; Copyright Tolón el percutor 2015</div>
             </div>
         </div>
     </div><!-- #footer -->
