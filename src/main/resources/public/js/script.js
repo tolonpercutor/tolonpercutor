@@ -108,6 +108,10 @@ jQuery(document).ready(function () {
         }, 1500);
     });
 
+    jQuery(".indio").on("click", function() {
+        jQuery(this).toggleClass("click");
+    })
+
 
 });
 

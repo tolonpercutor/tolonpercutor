@@ -765,3 +765,25 @@ h2.footer-block {
 button.navbar-toggle.collapsed {
     margin-top: 40px;
 }
+
+.indio {
+    cursor: pointer;
+    -webkit-filter: grayscale(100%);
+   filter: grayscale(100%);
+
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.indio.click {
+    -webkit-filter: none;
+    filter: none;
+
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 100%;
+    height: 100%;
+}
